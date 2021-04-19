@@ -1,0 +1,51 @@
+{
+	"name": "speedtest",
+	"version": "3.0.0",
+	"description": "Tester la rapidité de votre connexion internet ainsi que votre ping en utilisant speedtest.net depuis un CLI.",
+	"license": "MIT",
+	"repository": "sindresorhus/speed-test",
+	"authorOriginal": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"authorEdit": {
+		"name": "Johan",
+		"email": "contact.meniro@gmail.com",
+		"url": "https://johan-perso.glitch.me",
+		"twitter": "Johan_Stickman",
+		"discord": "Johan#8021"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli",
+		"cli-app",
+		"speedtest",
+		"connexion",
+		"vitesse",
+		"ping",
+		"speed-test"
+	],
+	"dependencies": {
+		"chalk": "^2.3.0",
+		"log-update": "^2.3.0",
+		"meow": "^5.0.0",
+		"ora": "^3.1.0",
+		"round-to": "^3.0.0",
+		"speedtest-net": "^1.2.4"
+	},
+	"devDependencies": {
+		"ava": "^1.2.1",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
+	}
+}
