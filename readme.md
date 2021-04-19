@@ -1,4 +1,4 @@
-# Speedtest
+# Speedtest CLI
 
 Tester la rapidité de votre connexion internet ainsi que votre ping en utilisant [speedtest.net](https://www.speedtest.net) depuis un CLI.
 
@@ -40,7 +40,6 @@ $ speed-test --help
 * Suppression du système de mise à jour
 
 ## En lien avec
-
 
 - [speed-test (original)](https://github.com/sindresorhus/fast-cli) - Test your download speed using speedtest.net | Projet original
 - [fast-cli](https://github.com/sindresorhus/fast-cli) - Test your download speed using fast.com | Projet original, version fast.com
