@@ -20,7 +20,7 @@ $ npm link
 ## Utilisation
 
 ```
-$ speed-test --help
+$ speedtest --help
 
   Utilisation
     $ speedtest
