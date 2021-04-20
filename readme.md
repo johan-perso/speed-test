@@ -41,8 +41,8 @@ $ speedtest --help
 
 ## En lien avec
 
-- [speed-test (original)](https://github.com/sindresorhus/fast-cli) - Test your download speed using speedtest.net | Projet original
-- [fast-cli](https://github.com/sindresorhus/fast-cli) - Test your download speed using fast.com | Projet original, version fast.com
+* [speed-test (original)](https://github.com/sindresorhus/fast-cli) - Test your download speed using speedtest.net | Projet original
+* [fast-cli](https://github.com/sindresorhus/fast-cli) - Test your download speed using fast.com | Projet original, version fast.com
 
 ## License
 
