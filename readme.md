@@ -8,9 +8,9 @@ Tester la rapidité de votre connexion internet ainsi que votre ping en utilisan
 
 Assure-toi d'avoir [Node.js et npm](https://nodejs.org) d'installer puis suis ces étapes dans l'ordre (tu auras peut-être besoin de redémarrer ton terminal / ton appareil après l'installation pour l'utiliser) :
 
-* Télécharger tous les fichiers nécessaires (sauf quelques fichiers genres screenshot.gif ou readme.md mais c'est pas obligé)
-* Ouvrir un terminal et aller dans le dossier où se trouve les fichiers téléchargé lors de la dernière étape.
-* Faire quelques commandes...
+- Télécharger tous les fichiers nécessaires (sauf quelques fichiers genres screenshot.gif ou readme.md mais c'est pas obligé)
+- Ouvrir un terminal et aller dans le dossier où se trouve les fichiers téléchargé lors de la dernière étape.
+- Faire quelques commandes...
 ```
 $ npm i
 .......
