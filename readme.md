@@ -2,7 +2,7 @@
 
 Tester la rapidité de votre connexion internet ainsi que votre ping en utilisant [speedtest.net](https://www.speedtest.net) depuis un CLI.
 
-<img src="screenshot.gif width="404">
+<img src="screenshot.gif" width="404">
                                     
 ## Installation
 
