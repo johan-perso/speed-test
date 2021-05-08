@@ -16,15 +16,29 @@ const cli = meow(`
 	  $ speedtest
 
 	Options
-	  --fast -f  Speedtest plus rapide / plus court
+	  --fast -f         Speedtest plus rapide / plus court
+	  --version -v      Indique la version actuellement utilisé
 `, {
 	flags: {
 		fast: {
 			type: 'boolean',
 			alias: 'f'
+		},		
+		version: {
+			type: 'boolean',
+			alias: 'v'
 		}
-	}
+	},
+	autoVersion: false
 });
+
+// Donner la version avec l'option associé
+if(cli.flags.version){
+	console.log("Votre Speedtest utilise actuellement la version 3.1.0")
+	console.log("\nV2- : " + chalk.cyan("https://github.com/sindresorhus/speed-test"))
+	console.log("V3+ : " + chalk.cyan("https://github.com/johan-perso/speedtest"))
+	return process.exit()
+}
 
 // Définition des stats par défaut
 const stats = {
