@@ -1,6 +1,6 @@
 {
 	"name": "speedtest",
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"description": "Tester la rapidité de votre connexion internet ainsi que votre ping en utilisant speedtest.net depuis un CLI.",
 	"license": "MIT",
 	"repository": "sindresorhus/speed-test",
