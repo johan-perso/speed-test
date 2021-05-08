@@ -38,6 +38,7 @@ $ speedtest --help
 * Modification du temps pris par le test : **Normal :** 15 secondes, **Fast :** 6 secondes
 * Suppression du module pour afficher un symbole à côté des erreurs (au moins ça fait gagner un peu de stockage)
 * Suppression du système de mise à jour
+* Dit la version utilisé avec l'option "version"
 
 ## En lien avec
 
